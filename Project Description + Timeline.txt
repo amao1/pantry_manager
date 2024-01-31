@@ -7,7 +7,7 @@ TECHNOLOGIES/LANGUAGES:
 -Passport.js for authentication
 -Bootstrap for making things look pretty
 
-PROJECT BETA DESCRIPTION:
+PROJECT DESCRIPTION:
 This web application will allow the user to add ingredients to their pantry, and have a list of dishes
 displayed that they are able to create with the ingredients in their pantry. The user should also be 
 able to create recipes and upload pictures of said recipes themselves. After creating a recipe, the 
@@ -18,20 +18,30 @@ The website should have a landing page that gives a short description of what it
 page for users to create accounts. Upon logging in, the user should be taken to a page that lists all their 
 ingredients, and if they have none, the option to add ingredients should be at the top of the page.
 
-The navbar of the website should be 
-  Pantry Icon
-  My pantry 
-  View Recipes 
-  upload ingredient/recipe
-  My Account
+NAVBAR
+  Pantry Icon - take to homepage
+  My pantry - 
+	my items(have both default items and custom items listed together)
+		search function for items(have option to add custom item)
+	my recipes(have both default recipes and custom recipes listed together)
+		search function for recipes(have option to add custom recipe)
+  Add Recipe - gives user a list of popular recipes included, as well as a search function for some premade ones
+	       also needs an option to add custom recipe
+  My Account - right hand side
+	profile information
 
+DETAILS
 my pantry - lists all ingredients the user owns, option to add, edit, and remove recipe
-view recipes - lists all recipes that the user is able to create with their ingredients, user should be able 
-               to select a recipe to view it in more detail, as well as an option to select "MADE RECIPE", 
-               which will subtract the amount needed from the user's pantry
-upload ingredient/recipe - 
+	  - lists all recipes that the user is able to create with their ingredients, user should be able 
+            to select a recipe to view it in more detail, as well as an option to select "MAKE RECIPE", 
+            which will subtract the amount needed from the user's pantry
 
-MILESTONE 1: system design - 3 DAYS 
+upload ingredient/recipe - when searching for an item/recipe to add to the pantry if it doesnt exist
+			   there should be an option to create a custom ingredient. There needs to be some 
+			   sort of separation between the user's custom ingredients and the site's default ones.
+			   applies to recipes as well
+
+MILESTONE 1: system design - 3 DAYS lucid.app/lucidchart
   -database design
   -system architecture 
 
