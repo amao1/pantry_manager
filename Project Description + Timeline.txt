@@ -8,6 +8,28 @@ TECHNOLOGIES/LANGUAGES:
 -Bootstrap for making things look pretty
 
 PROJECT BETA DESCRIPTION:
+This web application will allow the user to add ingredients to their pantry, and have a list of dishes
+displayed that they are able to create with the ingredients in their pantry. The user should also be 
+able to create recipes and upload pictures of said recipes themselves. After creating a recipe, the 
+used ingredients should be substracted against the user's pantry. The user should also be able to remove
+any ingredients they desire, as well as remove any recipes that they themselves have uploaded.
+
+The website should have a landing page that gives a short description of what it does, and a login/register 
+page for users to create accounts. Upon logging in, the user should be taken to a page that lists all their 
+ingredients, and if they have none, the option to add ingredients should be at the top of the page.
+
+The navbar of the website should be 
+  Pantry Icon
+  My pantry 
+  View Recipes 
+  upload ingredient/recipe
+  My Account
+
+my pantry - lists all ingredients the user owns, option to add, edit, and remove recipe
+view recipes - lists all recipes that the user is able to create with their ingredients, user should be able 
+               to select a recipe to view it in more detail, as well as an option to select "MADE RECIPE", 
+               which will subtract the amount needed from the user's pantry
+upload ingredient/recipe - 
 
 MILESTONE 1: system design - 3 DAYS 
   -database design
@@ -38,6 +60,7 @@ MILESTONE 6: implement remaining ingredients - 7 DAYS
   -subtract ingredients used in each recipe
   -search ingredients by remaining 
   -view recipes by ingredients missing
+  -change unit of measurement
 
 FUTURE CHANGES: 
   -deploy to raspberry pi, (kubernetes?)
