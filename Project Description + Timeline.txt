@@ -9,21 +9,21 @@ TECHNOLOGIES/LANGUAGES:
 
 PROJECT BETA DESCRIPTION:
 
-MILESTONE 1: system design - 1 DAYS 
+MILESTONE 1: system design - 3 DAYS 
   -database design
   -system architecture 
 
-MILESTONE 2: create basic website template - 1 DAYS
+MILESTONE 2: create basic website template - 3 DAYS
   -react and express for front/backend 
   -postgres and knex for database
   -template?
 
-MILESTONE 3: login/register and account details page - 3 DAYS
+MILESTONE 3: login/register and account details page - 7 DAYS
   -google login integration using passport
   -regular account creat
   -view/update/delete accounts
 
-MILESTONE 4: implement pantry tracker - 3 DAYS
+MILESTONE 4: implement pantry tracker - 7 DAYS
   -add/remove ingredients to pantry
   -add/remove picture
 
@@ -40,7 +40,7 @@ MILESTONE 6: implement remaining ingredients - 7 DAYS
   -view recipes by ingredients missing
 
 FUTURE CHANGES: 
-  -deploy to raspberry pi, (kubernetes?) - 3 DAYS
+  -deploy to raspberry pi, (kubernetes?)
   -implement a shopping list feature
   -forum discussion where people can post recipes and upvote/downvote/comment
   -import/export recipes(JSON?)
